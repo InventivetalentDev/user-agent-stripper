@@ -1,0 +1,23 @@
+{
+  "name": "user-agent-stripper",
+  "version": "0.0.0",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "test": "mocha -r ts-node/register test/**.ts",
+    "compile": "tsc",
+    "build": "npm run clean && npm run compile"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.16",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@types/useragent": "^2.3.0",
+    "useragent": "^2.3.0"
+  }
+}
