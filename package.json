@@ -1,6 +1,8 @@
 {
   "name": "user-agent-stripper",
   "version": "1.0.0",
+  "main": "dist/index.js",
+  "typings": "dist/index",
   "scripts": {
     "clean": "rm -rf dist",
     "test": "mocha -r ts-node/register test/**.ts",
