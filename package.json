@@ -1,6 +1,6 @@
 {
   "name": "user-agent-stripper",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "clean": "rm -rf dist",
     "test": "mocha -r ts-node/register test/**.ts",
