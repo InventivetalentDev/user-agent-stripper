@@ -6,7 +6,6 @@ import useragent = require("useragent");
  */
 export default function stripUserAgent(agent: string, stripNumbers: boolean = true): string {
     const parsed = useragent.parse(agent);
-    console.log(parsed);
     if (parsed.family === 'Other') {
         if (stripNumbers) {
             return parsed.source.replace(/\d/g, "x");
